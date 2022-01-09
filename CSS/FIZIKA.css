@@ -1,0 +1,271 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	text-align:center;
+}
+
+.wrappe2{
+	width:1170px;
+	margin:0 auto;
+}
+.wrapper2 p{
+	width:80%;
+	margin:auto;
+}
+header{
+	height:100px;
+	background: #262626;
+	width:100%;
+	z-index:12;
+	position:fixed;
+	top: 0;
+}
+.logo{
+	width: 0%;
+	float:left;
+	line-height: 100px;
+	padding-left: 50px;
+}
+
+.logo a{
+	text-decoration:none;
+	font-size: 30px;
+	font-family: bignoodletitling;
+	color: #fff;
+	letter-spacing: 5px;
+}
+nav{
+	float:right;
+	line-height: 100px;
+	padding-right: 40px;
+}
+nav a{
+    text-decoration:none;
+    font-family: bignoodletitling;
+    letter-spacing: 4px;
+    font-size: 20px;
+    margin: 0 10px;
+    color: #fff;
+    padding-right: 10px;
+}
+.banner-area{
+	padding-top:150px;
+	width: 100%;
+	height:600px;
+	position: fixed;
+	top:100px;
+	background-image: url(https://scse.d.umn.edu/sites/scse.d.umn.edu/files/umd_dept_home/physics-chalkboard_cropped.jpg);
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size: cover;
+	background-position: center center;
+
+}
+banner-area h2 {
+	padding-top: 8%;
+	font-size: 70px;
+	font-family: poppins;
+	text-transform: uppercase;
+	color: #fff;
+}
+.content-area {
+	width: 100%;
+	position: relative;
+	top: 850px;
+	background: #fff;
+	height: relative;
+}
+.content-area h2 {
+	font-family: arial;
+	letter-spacing: 4px;
+	padding: 90px;
+	padding-top: 30px;
+	font-size: 40px;
+	margin: 0;
+}
+.content-area h3 {
+	font-family: arial;
+	letter-spacing: 4px;
+	padding-top: 30px;
+	font-size: 40px;
+	margin: 0;
+}
+.content-area p {
+	padding: 2% 0px;
+	font-family: poppins;
+	line-height: 30px;
+	font-size: 25px;
+	text-align: left;
+	margin-left: 80px;
+
+
+}
+.content-area a {
+	padding: 2% 0px;
+	font-family: poppins;
+	line-height: 30px;
+	font-size: 25px;
+	text-align: left;
+	margin-left: 80px;
+
+
+}
+.content-area video
+{
+   margin-right: 500px;
+   padding-top:90px;
+}
+
+.content-area h3
+ {
+ 	padding: 2% 0px;
+	font-family: serif;
+	font-size: 25px;
+	text-align: right;
+	margin-right:50px;
+	line-height: 30px;
+	margin-top: 200px;
+ }
+.boom{
+	padding: 2% 0px;
+	font-family: poppins;
+	line-height: 30px;
+	font-size: 25px;
+}
+.bool{
+    padding: 2% 0px;
+	font-family: poppins;
+	line-height: 30px;
+	font-size: 25px;
+}
+
+.button {
+  background-color: #99A3A4 ; 
+  border: none;
+  color:  #FDFEFE;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 32px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: bignoodletitling;
+}
+.my-form{
+	padding:20px;
+	text-align:left;
+	margin:40px;
+
+}
+.my-form label{
+	font-size: 25px;
+	font-family: Arial;
+	display:block;
+	margin-top: 50px;
+	color: #fff;
+}
+.my-form input{
+	border:none;
+	border-bottom:1px solid black;
+	width:30%;
+}
+}
+.form-group {
+	padding-bottom:15px;
+	margin:top:200px;
+}
+a:hover{
+	color:tan;
+}
+.button:hover{
+	background-color:rgba(255,255,255,0.5);
+}
+.kik{
+	font-size: 40px;
+	font-family: Arial;
+	margin: 30px;
+}
+
+#prod{
+	size: 70px;
+}
+#prod {
+  width: 30%;
+  height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 0;
+  background-color: #99A3A4 ;
+  border: none;
+  border-bottom: 2px solid black;
+  color: white;
+  padding: 10px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding: 10px;
+}
+.anim{
+	background-image: url(https://www.aspenhotelsak.com/sitka/wp-content/uploads/sites/9/2017/03/Coffee.jpg);
+	-webkit-background-size:cover;
+}
+.anim h1{
+    padding-top:100px;
+    color:#fff;
+}
+.nagy{
+	margin-top: 200px;
+}
+.my-form input[type="text"]
+{
+    background: transparent;
+    border: none;
+    border:none;
+	border-bottom:1px solid black;
+	width:30%;
+	color:#fff;
+	font-size: 20px;
+	padding:20px;
+
+}
+.my-form input[type="number"]
+{
+    background: transparent;
+    border: none;
+    border:none;
+	border-bottom:1px solid black;
+	width:30%;
+	color:#fff;
+	font-size: 20px;
+	padding:20px;
+}
+.my-form input[type="email"]
+{
+    background: transparent;
+    border: none;
+    border:none;
+	border-bottom:1px solid black;
+	width:30%;
+	color:#fff;
+	font-size: 15px;
+	font-size: 20px;
+	padding:20px;
+
+}
+.elsokep
+{
+	padding: 2% 0px;
+	width:400px;
+	margin: 100px;
+}
+.elsokep2
+{
+	padding: 2% 0px;
+	width:800px;
+}

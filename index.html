@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fizika</title>
+    <link rel="stylesheet" type="text/css" href="css/FIZIKA.css">
+</head>
+<body>
+	<div class="box-area">
+		<header>
+			<div class="wrapper">
+				<div class="logo">
+					<a>Fizika</a>
+				</div>
+				<nav>
+					<a href="leckek.html">Leckék</a>
+					<a href="video.html">Videok</a>
+				</nav>
+			</div>
+		</header>
+			<div class="banner-area">
+			</div>
+	  <div class="content-area">
+		  	<div class="wrapper2">
+		  		<h2>Merőleges rezgések összetétele</h2>
+		  		
+		  		<p>   Ha két egymásra merőleges tengelyű, transzverzális sinusos rezgés interferál, az eredő a két rezgőmozgás relatív fázisának és frekvenciájának megfelelően változik. Ha például a két rezgés frekvenciája azonos és fáziskülönbségük nulla vagy 180 fok, akkor az eredő rengés lineáris, ha a fáziskülönbség ettől eltérő, akkor ellipszis, egyenlő amplitúdó és 90 fok eltérés esetén kör mentén játszódik le a rezgés. Ha a két frekvencia nem azonos, akkor a rezgés a két frekvencia arányától függő, bonyolultabb ábrákat, Lissajous görbéket kapunk. Ha a fáziskülönbségeket kis mértékben folyamatosan változtatjuk, akkor a keletkezett rezgés is folyamatosan változik.
+
+ 
+
+         Ez a program az utóbb leírt, folyamatosan átalakuló Lissajous görbéket szemlélteti. A listába belejavítva, a paraméterek változtatható (amplitúdó, fázisugrás). Futás közben az alap frekvenciaarányok négy nyomógomb segítségével, egyesével változtathatók. A folyamatos megjelenést időzítőre bíztam, melynek a kapcsolási intervalluma 1 ezred. A program 30000 ponttal rajzolja a görbéket, mely szám lassúbb gépeknél csökkenthető.
+
+ 
+
+         A következő két futási képen a két frekvenciának az aránya 6:5. Az első képen a fáziskülönbség 90 foknak egész számú többszöröse, a második egy ettől kicsit eltérő (röviddel az előző után létrejövő) fáziskülönbségű állapotot mutat, a harmadiknál az arány 10:7.
+		  		</p>
+		  		<img class="elsokep" src="IMAGES/kep1.png" alt="meroleges rezgesek">
+		  		<img class="elsokep" src="IMAGES/kep2.png" alt="meroleges rezgesek">
+		  		<img class="elsokep" src="IMAGES/kep3.png" alt="meroleges rezgesek">
+		  		<p>8. Merőleges rezgések összetétele
+Legyen két rezgés egymásra merőleges, azonos frekvenciájú, harmonikus rezgés. Egyenlet
+ik, feltételezve, hogy az egyik x irányú, a másik y irányú:
+y=A<sub>1</sub> &#215; sin(&omega;t) és x=A<sub>2</sub> &#215; sin(&omega;t*&#966;<sub>0</sub>)
+Ebben az esetben a pont pályája függ az amplitúdók arányától és a rezgések közötti &#966;<sub>0</sub>
+fáziskülönbségtől. Speciális esetek:
+<P>a) &#966;<sub>0</sub>=0, azaz a rezgések azonos fázisúak. A két rezgésegyenletet egymással elosztva
+kapjuk:</P>
+ <P>y/x=A<sub>1</sub>/A<sub>2</sub></P>
+<p>ami nem más, mint egy origón átmenő egyenes egyenlete. A test ezen egyenes által meghatározott irányban végez rezgéseket, 
+  &omega; szögsebességgel és A =&#8730;(A<sub>1</sub><sup>2</sup>+A<sub>2</sub><sup>2</sup>) amplitúdóval. Ha
+a &#966;<sub>0</sub>= &pi; =180<sup>o</sup>
+ , akkor az eset hasonló, csak az egyenes iránytényezője ellentétes előjelű.</p>
+ <P>b) &#966;<sub>0</sub>= &pi; /2 =90<sup>o</sup>
+ és A1=A2. Ebben az esetben a két kitérésegyenlet: </P>
+ <P>y=A &#215; sin(&omega;t) x=A &#215; sin(&omega;t + &pi; /2)=Acos(&omega;t)</P>
+ <p>Az egyenleteket négyzetre emelve és összeadva kapjuk: </p>
+ <p>x<sup>2</sup> + y<sup>2</sup>= A <sup>2</sup></p>
+ <p>A 32-es egy origóval megegyező középpontú kör egyenlete. A test ezen a körpályán végez
+egyenletes körmozgást 
+ szögsebességgel. Ha a  &#966;<sub>0</sub>= 3 &pi;/2 = 270<sup>o</sup>
+, akkor az előbbihez hasonlóan körpályán mozog a test, azzal a különbséggel, hogy a mozgás ellentétes irányítású
+(óramutatóval megegyező). </p>
+<p>c) &#966;<sub>0</sub>= &pi; /2 =90<sup>o</sup>
+ de A1≠A2. A kitérésegyenletek ebben az esetben: </p>
+ <p>y=A<sub>1</sub> &#215; sin(&omega;t) és x=A<sub>2</sub> &#215; cos(&omega;t)</p>
+ <p>Ebben az esetben kifejezzük mindkét egyenletből a szögfüggvényeket, négyzetre emeljük
+őket és a sin<sup>2</sup> x + cos<sup>2</sup> x = 1 trigonometriai azonosságot felhasználva kapjuk:</p>
+<p>(x<sup>2</sup>/A<sub>2</sub><sup>2</sup>)+(y<sup>2</sup>/A<sub>2</sub><sup>2</sup>)=1</p>
+<p>A 34-es szerint a test pályája ellipszis melynek tengelyei egybeesnek a koordinátatengelyekkel. A tengelyek hossza 2<sub>1</sub>, illetve 2A<sub>2</sub>. </p>
+<p>d) Eltérő frekvenciájú, egymásra merőleges harmonikus rezgések összetétele esetén, általában bonyolult, nem periodikus rezgés jön létre. Ezek az ún. Lissajous-görbék. </p>
+		  </div>
+	   </div>
+	</div>
+</body>
+</html>
